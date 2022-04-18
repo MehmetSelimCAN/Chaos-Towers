@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c6802c92005904b98a06e217194714, type: 3}
+  m_Name: btBlockade
+  m_EditorClassIdentifier: 
+  nameString: Blockade
+  prefab: {fileID: 7737692116708527638, guid: 7a5025492f330a94f8e6ba4dee40a463, type: 3}
+  sprite: {fileID: 21300000, guid: 98f19882b019b41488bc2d822baafd8f, type: 3}
+  materialSprite: {fileID: 21300000, guid: 4f43b0f2f4d769146b11f7337546ff5c, type: 3}
+  materialName: BlockadeMaterial
+  neededMaterialCount: 20
+  width: 4
+  height: 2
+  instruction: Temporarily blocks both bullets and enemies.
